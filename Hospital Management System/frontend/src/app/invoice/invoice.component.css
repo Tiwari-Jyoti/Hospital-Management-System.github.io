@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container Styles */
+  .body {
+    background-color: #81e7fb;
+    margin: 0 auto;
+    max-width: 800px; /* Adjust this value based on your layout */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 2%;
+  }
+  
+  /* Button Styles */
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Top Content Styles */
+  .top-content {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  /* User Info Styles */
+  .store-user {
+    margin-top: 20px;
+  }
+  
+  .store-user p {
+    font-weight: bold;
+  }
+  
+  .address {
+    font-size: 14px;
+  }
+  
+  .txn {
+    font-size: 16px;
+  }
+  
+  /* Product Table Styles */
+  .product-area {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  table th, table td {
+    padding: 10px;
+  }
+  
+  /* Balance Info Styles */
+  .balance-info {
+    margin-top: 20px;
+  }
+  
+  .balance-info p {
+    font-weight: bold;
+  }
+  
+  /* Signature Styles */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Responsive Styles (adjust as needed) */
+  @media (max-width: 768px) {
+    .body {
+      padding: 10px;
+    }
+  }
+  

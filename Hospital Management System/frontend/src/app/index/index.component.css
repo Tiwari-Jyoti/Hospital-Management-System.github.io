@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h2, p, span {
+  color: #444242;
+}
+
+/* Side Navigation */
+.sidenav {
+  text-align: left;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 7;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(28, 28, 173, 0.8));
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 50px;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  transition: 0.3s;
+  padding: 10px;
+}
+
+.sidenav a:hover,
+.offcanvas a:focus {
+  color: #e97516;
+  font-size: 24px;
+}
+
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 5;
+  padding-top: 10px;
+  width: auto;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px !important;
+  margin-left: 50px;
+}
+
+/* Header and Menu */
+.header {
+  overflow: visible;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(35, 64, 196);
+  opacity: 0.8;
+  position: relative;
+  height: 80px;
+}
+
+.menu h1 {
+  font-family: 'Nosifer', cursive;
+  font-size: 36px;
+  color: white;
+  margin: 0;
+  padding-left: 100px;
+
+}
+
+.menu h6 {
+  letter-spacing: 3px;
+  color: black;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: rgb(35, 64, 196);
+  transition: background-color 0.3s;
+}
+
+.menu a:hover {
+  background-color: rgb(21, 209, 24);
+}
+
+.menu .logout:hover {
+  background-color: #bd1313;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(6, 38, 141);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  line-height: -1;
+  line-break: strict;
+  min-width: 160px;
+  margin-top: 10px;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(6, 38, 141);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

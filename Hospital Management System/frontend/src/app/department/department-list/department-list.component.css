@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styles */
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+.navbar-nav .btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.navbar-nav .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styles */
+.table {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: lightgreen;
+  font-weight: bold;
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2;
+}
+
+/* Search Input Styles */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Not Authorized Message Styles */
+.not-authorized {
+  text-align: center;
+  margin-top: 7.3%;
+  font-size: 24px;
+  color: #dc3545;
+}
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+  .container {
+      padding: 10px;
+  }
+
+  .form-control {
+      font-size: 14px;
+  }
+
+  .btn {
+      font-size: 14px;
+      padding: 8px 16px;
+  }
+
+  .not-authorized {
+      font-size: 18px;
+  }
+}
